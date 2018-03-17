@@ -1,0 +1,36 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 8vw;
+  margin: 0
+}
+.description  {
+  font-size: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.index-description {
+  display: inline-block;
+  color: rgba(0,0,0,0.8);
+  white-space: nowrap;
+
+}
+code {
+  color: rgb(199, 37, 78);
+  background-color: #f9f2f4;
+  font-size: 16px;
+}
+a {
+  display: inline-block;
+  width: 200px;
+
+  text-decoration: none;
+  color: rgba(0,0,250,0.5);
+  transition: all 150ms;
+}
+a:hover {
+  color: rgba(0,0,250,1);
+}
